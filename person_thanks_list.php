@@ -58,7 +58,7 @@ $notes = $stmt->fetchAll();
             echo ' AIに惚気た';
             break;
           default:
-            echo ' 未送信';
+            echo ' 未処理';
         }
       ?>
       <br>
